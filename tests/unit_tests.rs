@@ -17,6 +17,7 @@ mod tests {
         let version = extract_tx_version(tx_hex).unwrap();
         assert_eq!(version, 2);
     }
+    // these transactions failed
 
     #[test]
     fn test_short_input() {
